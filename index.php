@@ -12,9 +12,12 @@
         <button>SUBMIT</button>
     </form>
     <?php
+        //Used form to apply chosen name
        $name = $_GET['person'];
+       //echo the name frome previous line and the string
        echo $name." Read this. ";
-       print "I can't beelieve I got fired from the calendar factory. All I did was take a day off!"
+       //does the seame as echo just takes longer
+       print "I can't beelieve I got fired from the calendar factory. All I did was take a day off!";
     ?>
 </body>
 </html>
