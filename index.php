@@ -14,7 +14,7 @@
     <?php
        $name = $_GET['person'];
        echo $name." Read this. ";
-       print "I can't beelieve I got fired from the calendar factory. All I did was takee a day off!"
+       print "I can't beelieve I got fired from the calendar factory. All I did was take a day off!"
     ?>
 </body>
 </html>
