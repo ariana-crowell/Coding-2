@@ -7,8 +7,14 @@
 </head>
 <body>
     <h1>My First Website</h1>
+    <form method="GET">
+        <input type="text" name="person">
+        <button>SUBMIT</button>
+    </form>
     <?php
-       echo "My first website"; 
+       $name = $_GET['person'];
+       echo $name." Read this. ";
+       print "I can't beelieve I got fired from the calendar factory. All I did was takee a day off!"
     ?>
 </body>
 </html>
