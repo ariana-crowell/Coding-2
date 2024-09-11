@@ -16,7 +16,7 @@
        $name = $_GET['person'];
        //echo the name frome previous line and the string
        echo $name." Read this. ";
-       //does the seame as echo just takes longer
+       //does the same as echo just takes longer
        print "I can't beelieve I got fired from the calendar factory. All I did was take a day off!";
     ?>
 </body>
