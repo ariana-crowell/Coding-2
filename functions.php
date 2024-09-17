@@ -9,6 +9,7 @@
 <body>
     
 <?php
+    include 'includes/header.php';
     
     $x = 100;
 

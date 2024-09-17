@@ -8,6 +8,7 @@
 <body>
     
     <?php
+        include 'includes/header.php';
         $x = 1;
 
     if ($x == 1) {

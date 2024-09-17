@@ -6,6 +6,9 @@
     <title>Document</title>
 </head>
 <body>
+    <?php
+        include 'includes/header.php';
+    ?>
     <h1>My First Website</h1>
     <form method="GET">
         <input type="text" name="person">

@@ -9,6 +9,7 @@
 <body>
     
 <?php
+    include 'includes/header.php';
     $array = array("Ariana", "Alina", "Joshua", "Joshlynn", "Danielle");
 
     echo $array[0];

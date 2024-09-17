@@ -8,14 +8,15 @@
 <body>
    
     <?php
+        include 'includes/header.php';
        //Arithmetic Operators
-   echo 5**2;
-
+    echo 5**2;
+    echo "<br>";
    //Assignment Operators
    $x = 14;
    $x += 20;
    echo $x;
-
+   echo "<br>";
     //Comparison Operators
     $x = 10;
     $y = 10;
@@ -26,12 +27,12 @@
     else {
         echo "False!";
     }
-
+    echo "<br>";
     //Increment/Decrement Operators
     $x = 14;
     echo $x--;
     echo $x;
-
+    echo "<br>";
     //Logical Operators
     $x = 14;
     $y = 10;

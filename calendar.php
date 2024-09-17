@@ -9,6 +9,7 @@
 <body>
     
 <?php
+    include 'includes/header.php';
     $dayofweek = date("w");
     switch ($dayofweek) {
         case 1:

@@ -8,6 +8,7 @@
 <body>
 
     <?php
+        include 'includes/header.php';
         //Loop
 
         //While Loop
