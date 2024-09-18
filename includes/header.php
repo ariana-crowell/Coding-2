@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -25,11 +29,21 @@
                             <a class="nav-link" href="functions.php">Functions</a>
                             <a class="nav-link" href="loops.php">Loops</a>
                             <a class="nav-link" href="operators.php">Operators</a>
+                            <a class="nav-link" href="superglobals.php">Superglobals</a>
                         </div>
                     </div>
                 </div>
             </nav>
         <?php
+            $_SESSION['username'] = "ana4536 ";
+            echo $_SESSION['username'];
+            if (!isset($_SESSION['username'])) {
+                echo "You are not logged in!";
+            } else {
+                echo "You are logged in!";
+            }
+            echo "<br>";
+
         ?>
     </body>
 </html>
