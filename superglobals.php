@@ -10,6 +10,7 @@
     
 <?php
     include 'includes/header.php';
+    include_once 'includes/connection.php';
     
     setcookie("name", "Ariana", time() + 172800);
 

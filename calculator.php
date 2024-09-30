@@ -8,6 +8,8 @@
 <body>
     <?php
         include 'includes/header.php';
+        include_once 'includes/connection.php';
+
     ?>
     <form>
         <input type="text" name="num1" placeholder="Number 1">
