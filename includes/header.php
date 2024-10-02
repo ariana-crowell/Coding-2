@@ -25,6 +25,7 @@
                             <a class="nav-link" href="calculator.php">Calculator</a>
                             <a class="nav-link" href="calendar.php">Calendar</a>
                             <a class="nav-link" href="conditionals.php">Conditionals</a>
+                            <a class="nav-link" href="contact.php">Contact</a>
                             <a class="nav-link" href="datatypes.php">Data Types</a>
                             <a class="nav-link" href="functions.php">Functions</a>
                             <a class="nav-link" href="loops.php">Loops</a>
