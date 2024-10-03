@@ -9,7 +9,7 @@
 <body>
     
 <?php
-    include_once 'includes/connection.php';
+    include_once 'includes/dbh.inc.php';
     include 'includes/header.php';
     $array = array("Ariana", "Alina", "Joshua", "Joshlynn", "Danielle");
 

@@ -10,7 +10,7 @@
     
 <?php
     include 'includes/header.php';
-    include_once 'includes/connection.php';
+    include_once 'includes/dbh.inc.php';
     $dayofweek = date("w");
     switch ($dayofweek) {
         case 1:
